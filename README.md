@@ -8,22 +8,20 @@ Program to play a simple Mancala Game, and all of the games functionalities give
 
 An in-depth paragraph about your project and overview of use.
 
-There are 11 executable classes not including the AI portion of this assignment, and all the testing classes. 10 of the classes come together as individual parts of the full game and are used on the TextUI. 
-Including the junit tests you are able ensure smaller parts of the program work well, and reducing the difficulty of testing a large amount of code. The AI portion gave a starting point on how to start coding the games logic. The textUI is what actually uses the MancalaGame which uses the Board class to make the game work. The textUI is an attempt at a more object oriented designed textUI.
+There are 11 executable classes, and all the testing classes. 10 of the classes come together as individual parts of the full game and are used on the TextUI. Including the junit tests you are able ensure smaller parts of the program work well, and reducing the difficulty of testing a large amount of code. The textUI is what actually uses the MancalaGame which uses the Board class to make the game work. The textUI is an attempt at a more object oriented designed textUI.
 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing and running your program.
+* prerequisites, libraries, OS version, etc., needed before installing and running your program.
 
 You need gradle to be able to compile and run my program.
 
 ### Executing program
 
 * How to build and run the program
-* Step-by-step bullets
 ```
 
 Compile: gradle build
@@ -32,7 +30,7 @@ Run: java -cp build/classes/java/main ui.TextUI
 
 use code blocks for commands
 ```
-* include the expected output
+* the expected output
 
 After Two Moves (So player one makes a move, and player two makes a move):
 
@@ -163,30 +161,17 @@ Pit 12: Pit has 5 stones.
 
 bob: Enter pit (1-12) to make move from: 
 
-## Limitations
-
-What isn't done? What things cause errors?
-
-Everything is done
 
 ## Author Information
 
 Your name and contact information including your email address
 
 Name: Inderjeet Gill
-Email: igill06uoguelph.ca
+Email: inderjeetkaurgill2004@gmail.com
 
 ## Development History
 
-Keep a log of what things you accomplish when.  You can use git's tagging feature to tag the versions or you can reference commits.
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-    I git commited the whole time to GP2 so these commits are from there hi
+Keep a log of what things you accomplish when:
 
     Oct 22, 2023 - added doc
 
@@ -201,9 +186,6 @@ Keep a log of what things you accomplish when.  You can use git's tagging featur
     
     
                  - done setting up git
-    
-    
-                 - Delete AICODE.md
     
     
                  - finally fixed git
@@ -224,9 +206,6 @@ Keep a log of what things you accomplish when.  You can use git's tagging featur
     Oct 23, 2023 - started mancalagame class
     
     
-                 - picked my ai code
-    
-    
                  - deleted smth
     
     
@@ -243,9 +222,6 @@ Keep a log of what things you accomplish when.  You can use git's tagging featur
 B    
     
                  - added board back in after mistake
-    
-    
-                 - bonus marks
     
     
                  - trying something
@@ -266,13 +242,11 @@ B
     Oct 26, 2023 - updates
     
     
-    Oct 30, 2023 - working on exceptions, I need to finish AI code by tonigh
+    Oct 30, 2023 - working on exceptions
     
     
-                 - need to do ai code
     
-    
-    Oct 31, 2023 - started aiprompt and did most toStrings
+    Oct 31, 2023 - did most toStrings
     
     
                  - modifeied board
@@ -299,10 +273,7 @@ B
     Nov 14, 2023 - done board testing i think, fixed capture stones need sleep
     
     
-                 - working on ai OO version
-    
-    
-    Nov 15, 2023 - done ai code part and checkstyle, need to finish textui
+    Nov 15, 2023 - done check style, need to finish textui
     
     
     Nov 16, 2023 - finished text ui, and fixed some methods need to do readme
@@ -310,11 +281,6 @@ B
     
     Nov 16, 2023 - done readme
 
-
-    My Mancala Game vs AI Generated: 
-
-    
-    My code is inspired by the AI generated code, and I did copy smaller methods from the AI code, however, the longer methods that require the game to played using distribute stones, making a move, and capturing stones are my own logic which I think is a bit more complex than the AI. I've also been testing my code against junit tests, ones that are not included either to ensure things work well, and I haven't done any testing on the AI code so I'm unsure how good that code is. From an OO perspective, I had to force the AI code to be OO using more detailed and specfic prompts, so I can say that the AI code has some OO elements, and so does my own code. Neither I would say are perfect OO design because of how complex and huge the Board.java class is.
 
 
 ## Acknowledgments
