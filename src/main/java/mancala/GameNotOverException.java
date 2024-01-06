@@ -1,5 +1,4 @@
 package mancala;
-//comment
 public class GameNotOverException extends Exception {
     public GameNotOverException() {
         super("Game not over.");
